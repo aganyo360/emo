@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    background-color: #f5efefe8;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav--bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(236, 227, 227);
+    margin: 0 20px;
+}
+.logo {
+    color: white;
+    background: blue;
+    padding: 15px 33px;
+    border-radius: 8px  ;
+    font-size: 18px;
+    cursor: pointer;
+}
+.nav-wrapper > ul{
+    display: flex;
+    background-color: rgb(236, 227, 227);
+    
+}
+ul , li , a{
+    background-color: rgb(236, 227, 227);
+}
+ .nav-links li {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 20px;
+    font-size: 18px;
+    background-color: rgb(236, 227, 227);
+    
+}
+ a{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(236, 227, 227);
+ }
+ a:hover{
+    color: blue;
+ }
+ .buy-tickets-button > .btn{
+    outline: none;
+    padding: 15px 22px;
+    background-color: blue;
+    border: 0;
+    color: white;
+     border-radius: 8px  ;
+    
+ }
+ main{
+    margin: 0 20px;
+    display: flex;
+    padding: 20px;
+}
+.hero{
+    width: 50%;
+}
+.heading h1{
+ font-size: 45px;
+ font-weight: 800;
+}
+
+.hero h2{
+    color: blue;
+}
+.hero-image{
+    /* width: 50%; */
+    padding-top: 80px;
+  
+}
+.event-details{
+   margin: 14px 0;
+   display: flex;
+   
+}
+.event-details img{
+    margin-right: 14px;
+}
+
+.hero-image img{
+    width: 650px;
+    transform: skew(-3deg, 1deg);
+    border-radius: 18px;
+}
+.registration{
+    display: flex;
+}
+.btn-register{
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 18px 30px;
+    outline: none;
+    border: 1px solid blue;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.btn-register button{
+ outline:  none;
+}
+.blue_register{
+    background-color: blue;
+    color: white;
+}
+.blue_register:hover{
+    background-color: white;
+    color: blue;
+}
+.white_schedule{
+    color: blue;
+}
+.white_schedule:hover{
+    color: white;
+    background-color: blue;
+}
+button{
+    cursor: pointer;
+}
+.image_overlay--wrapper{
+    position: absolute;
+    z-index: 10;
+    right: 15px;
+    top: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: transparent;
+  
+
+}
+.detail{
+    margin: 20px 0;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 30px;
+    background-color: white ;
+    box-shadow: 2px 2px   rgb(236, 227, 227);
+    margin-left: 20px;
+    display: flex;
+}
